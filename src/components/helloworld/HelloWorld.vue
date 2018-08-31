@@ -5,10 +5,12 @@
 </template>
 
 <script>
-    import Hello from './components/Hello.vue'
-    import World from './components/World.vue'
+    import Hello from './Hello.vue'
+    import World from './World.vue'
+    import store from '../../vuex/store'
 
     export default {
+        store,
         name: 'HelloWorld',
         components: { Hello, World }
     }
