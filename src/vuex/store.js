@@ -8,7 +8,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state : {
-        testData: ''
+        testData: '임시 데이터'
     },
     mutations : {
         setData: function(state, data){

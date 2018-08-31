@@ -9,6 +9,9 @@ module.exports = {
         path: __dirname + '/dist',
         filename: '[name].js'
     },
+    devServer: {
+        historyApiFallback: true,
+    },
     module: {
         rules: [
             {
