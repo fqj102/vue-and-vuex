@@ -10,7 +10,7 @@
 
     //구조는 HelloWorld.vue와 동알하다
     export default {
-        name: "HelloWorld2",
+        name: "HelloWorld4",
         components: {Hello, World},
     }
 </script>

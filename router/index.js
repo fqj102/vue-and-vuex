@@ -3,8 +3,9 @@ import Router from 'vue-router'
 
 //컴포넌트 임포트
 import HelloWorld from '../src/components/helloworld/HelloWorld.vue'
-import HelloWorld2 from '../src/components/helloworld_with_eventbus/HelloWorld.vue'
-import HelloWorld3 from '../src/components/helloworld_with_store/HelloWorld.vue'
+import HelloWorld2 from '../src/components/helloworld_with_parentcall/HelloWorld.vue'
+import HelloWorld3 from '../src/components/helloworld_with_eventbus/HelloWorld.vue'
+import HelloWorld4 from '../src/components/helloworld_with_store/HelloWorld.vue'
 import ProductMain from '../src/components/check_itemlist_with_store/ProductMain.vue'
 
 //라우터 사용처리
@@ -26,6 +27,11 @@ const routes = [
         path: '/helloworld3',
         name: 'HelloWorld3',
         component: HelloWorld3
+    },
+    {
+        path: '/helloworld4',
+        name: 'HelloWorld4',
+        component: HelloWorld4
     },
     {
         path: '/products',

@@ -8,7 +8,7 @@
 
         //생성시점에 데이터 세팅
         created: function() {
-            this.$store.commit('setWorld', 'World')
+            this.$store.commit('helloworld/setWorld', 'World')
         }
     }
 </script>
