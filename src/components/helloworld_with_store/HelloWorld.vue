@@ -8,8 +8,9 @@
     import Hello from './Hello.vue'
     import World from './World.vue'
 
+    //구조는 HelloWorld.vue와 동알하다
     export default {
-        name: 'HelloWorld',
-        components: { Hello, World }
+        name: "HelloWorld2",
+        components: {Hello, World},
     }
 </script>

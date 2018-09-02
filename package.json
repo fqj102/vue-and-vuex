@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Vue와 Vuex에 관한 프로젝트",
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
+    "dev": "webpack-dev-server --mode development --port 80",
     "build": "webpack --mode production",
     "build-dev": "webpack --mode development"
   },

@@ -1,22 +1,9 @@
 <template>
-    <span>
-        World
-        <br>
-        {{testData}}
-    </span>
+    <span>World</span>
 </template>
 
 <script>
     export default {
         name: "World",
-        computed: {
-            testData: function(){
-                return this.$store.state.testData
-            }
-        }
     }
 </script>
-
-<style scoped>
-
-</style>
