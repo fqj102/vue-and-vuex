@@ -10,14 +10,9 @@
     import Hello from './Hello.vue'
     import World from './World.vue'
 
-    //HelloWorld2.vue 에서 eventBus가 추가됨
+    //이 컴포넌트 객체를 통해 통신하지만 추가되는것은 없다.
     export default {
         name: "HelloWorld2",
-        data: () => {
-            return {
-                worldText: ''
-            }
-        },
         components: {Hello, World},
     }
 </script>

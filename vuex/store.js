@@ -9,21 +9,12 @@ Vue.use(Vuex)
 
 //VUEX 스토어 생성
 const store = new Vuex.Store({
+    //전역 상태로 사용할것이 있다면 이곳에 추가
     state: {
-        commonTitle: '임시 실험실',
     },
-    mutations: { //실제 화면등에 적용시키는 부분
-        setMainTitle: function(state, data){
-            state.testData = data
-        }
+    mutations: {
     },
-    actions: {//서버와 통신후 값을 받는부분
-        getMainTitle: function(context) {
-
-            let serverReturnedTitle = '여기는 kww 실험실 입니다.'
-
-            context.commit('setTitle', serverReturnedTitle)
-        }
+    actions: {
     },
     modules: modules.default
 })

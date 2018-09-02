@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 
 //컴포넌트 임포트
 import HelloWorld from './components/helloworld/HelloWorld.vue'
-import HelloWorld2 from './components/helloworld_with_eventbus/HelloWorld.vue'
+import HelloWorld2 from './components/helloworld_with_parentcall/HelloWorld.vue'
 
 //라우터 사용처리
 Vue.use(VueRouter)
