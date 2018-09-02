@@ -14,7 +14,6 @@
             // let thisClass = this 와같은 방법으로 뷰컴포넌트 객체를 넘겨주어야함
             let emmitEvent = () => {
                 this.eventBus.$emit('setWorld', 'world')
-                console.log('test')
             }
 
             setTimeout(emmitEvent, 1000)
