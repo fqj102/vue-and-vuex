@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h4>두번째 세계</h4>
         <!-- 컴포넌트에 이벤트핸들러를 등록하고,  -->
         <hello/> Vue <world/> !!
     </div>

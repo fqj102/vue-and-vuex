@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h4>세번째 세계</h4>
         <!-- 각 컴포넌트에 이벤트 버스를 넘겨준다 -->
         <hello :eventBus="eventBus"/> Vue <world :eventBus="eventBus"/> !!
     </div>
