@@ -16,7 +16,7 @@
                 this.$parent.$emit('setWorldText', 'world')
             }
 
-            setTimeout(emmitEvent, 1000)
+            setTimeout(emmitEvent, 2000)
         }
     }
 </script>

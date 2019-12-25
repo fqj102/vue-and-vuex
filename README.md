@@ -1,4 +1,4 @@
-# vue-and-vuex
+# [vue-and-vuex](http://labs.brandi.co.kr/2018/12/13/kangww.html)
 
 VUE의 컴포넌트간 통신방식과 상태관리 라이브러리 VUEX의 상태관리에 대한 튜토리얼 프로젝트입니다.
 

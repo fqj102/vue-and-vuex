@@ -6,7 +6,7 @@
     export default {
         name: "World",
         data: () => {
-          return { world: '임시 세계' }
+          return { world: '' }
         },
         //생성시점에 이벤트 버스에 이벤트핸들러 등록
         created: function() {
@@ -15,7 +15,7 @@
             // let thisClass = this 를 통해 뷰컴포넌트 객체를 가져와줘야 함
             //상위 컴포넌트에 이벤트핸들러를 등록하여 해당 이벤트를 처리한다.
             this.$parent.$on('setWorldText', text => {
-                //this.world = text
+                this.world = text
             })
         }
     }
